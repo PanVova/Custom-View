@@ -42,4 +42,8 @@
         app:cardImage="@drawable/ic_launcher_foreground"
         app:cardText="Some very long text for card" />
 
+    <com.panvova.custom_view.customViews.EmojiView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
 </LinearLayout>
