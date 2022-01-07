@@ -12,16 +12,26 @@
         android:layout_width="match_parent"
         android:layout_height="?android:attr/listPreferredItemHeight"
         android:background="?android:selectableItemBackground"
-        app:valueColor="@color/teal_200"
-        app:titleText="Text1" />
+        app:titleText="Text1"
+        app:valueColor="@color/teal_200" />
 
+    <com.panvova.custom_view.ColorOptionsView
+        android:id="@+id/view2"
+        android:layout_width="match_parent"
+        android:layout_height="?android:attr/listPreferredItemHeight"
+        android:background="?android:selectableItemBackground"
+        app:titleText="Text2"
+        app:valueColor="@color/purple_500" />
 
-        <com.panvova.custom_view.ColorOptionsView
-            android:id="@+id/view2"
-            android:layout_width="match_parent"
-            android:layout_height="?android:attr/listPreferredItemHeight"
-            android:background="?android:selectableItemBackground"
-            app:valueColor="@color/purple_500"
-            app:titleText="Text2"/>
+    <com.panvova.custom_view.CoolButton
+        android:id="@+id/button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        app:drawableStart="@drawable/ic_launcher_foreground"
+        app:text="Google Icon">
+
+    </com.panvova.custom_view.CoolButton>
 
 </LinearLayout>

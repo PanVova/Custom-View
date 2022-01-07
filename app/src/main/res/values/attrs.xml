@@ -4,4 +4,9 @@
         <attr name="titleText" format="string" localization="suggested" />
         <attr name="valueColor" format="color" />
     </declare-styleable>
+
+    <declare-styleable name="CoolButton">
+        <attr name="drawableStart" format="reference|color" />
+        <attr name="text" format="string" />
+    </declare-styleable>
 </resources>

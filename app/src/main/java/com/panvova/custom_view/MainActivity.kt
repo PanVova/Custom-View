@@ -3,7 +3,6 @@ package com.panvova.custom_view
 import android.os.Bundle
 import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
-import com.google.android.material.snackbar.Snackbar
 import com.panvova.custom_view.databinding.ActivityMainBinding
 
 class MainActivity : AppCompatActivity() {
@@ -19,6 +18,10 @@ class MainActivity : AppCompatActivity() {
 
         binding.view2.setOnClickListener {
             Toast.makeText(applicationContext, "View 2 clicked", Toast.LENGTH_SHORT).show()
+        }
+
+        binding.button.setOnClickListener {
+            Toast.makeText(applicationContext, "CoolButton clicked", Toast.LENGTH_SHORT).show()
         }
     }
 }
