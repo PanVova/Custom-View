@@ -9,4 +9,9 @@
         <attr name="drawableStart" format="reference|color" />
         <attr name="text" format="string" />
     </declare-styleable>
+
+    <declare-styleable name="CardView">
+        <attr name="cardImage" format="reference|color" />
+        <attr name="cardText" format="string" />
+    </declare-styleable>
 </resources>

@@ -1,4 +1,4 @@
-package com.panvova.custom_view
+package com.panvova.custom_view.customViews
 
 import android.content.Context
 import android.graphics.drawable.Drawable
@@ -9,6 +9,7 @@ import android.view.View
 import android.widget.ImageView
 import android.widget.LinearLayout
 import android.widget.TextView
+import com.panvova.custom_view.R
 
 class CoolButtonView @JvmOverloads constructor(
     context: Context, attrs: AttributeSet? = null, defStyleAttr: Int = 0

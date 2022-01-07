@@ -1,4 +1,4 @@
-package com.panvova.custom_view
+package com.panvova.custom_view.customViews
 
 import android.content.Context
 import android.graphics.Color
@@ -8,6 +8,7 @@ import android.view.LayoutInflater
 import android.view.View
 import android.widget.LinearLayout
 import android.widget.TextView
+import com.panvova.custom_view.R
 
 class ColorOptionsView @JvmOverloads constructor(context: Context, attrs: AttributeSet? = null) :
     LinearLayout(context, attrs) {
