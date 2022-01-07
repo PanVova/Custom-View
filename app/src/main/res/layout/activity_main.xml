@@ -23,7 +23,7 @@
         app:titleText="Text2"
         app:valueColor="@color/purple_500" />
 
-    <com.panvova.custom_view.CoolButton
+    <com.panvova.custom_view.CoolButtonView
         android:id="@+id/button"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -32,6 +32,6 @@
         app:drawableStart="@drawable/ic_launcher_foreground"
         app:text="Google Icon">
 
-    </com.panvova.custom_view.CoolButton>
+    </com.panvova.custom_view.CoolButtonView>
 
 </LinearLayout>
