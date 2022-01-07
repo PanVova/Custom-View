@@ -14,12 +14,12 @@ class CoolButtonView @JvmOverloads constructor(
     context: Context, attrs: AttributeSet? = null, defStyleAttr: Int = 0
 ) : LinearLayout(context, attrs, defStyleAttr) {
 
-    private val drawableChild: ImageView?
-        get() = if (childCount > 0) getChildAt(0) as ImageView else null
-    private val dividerChild: View?
-        get() = if (childCount > 1) getChildAt(1) else null
-    private val textChild: TextView?
-        get() = if (childCount > 1) getChildAt(2) as TextView else null
+    private val drawableChild: ImageView
+        get() = getChildAt(0) as ImageView
+    private val dividerChild: View
+        get() = getChildAt(1)
+    private val textChild: TextView
+        get() = getChildAt(2) as TextView
 
     init {
         val styleAttributes = context.obtainStyledAttributes(attrs, R.styleable.CoolButton, 0, 0)
